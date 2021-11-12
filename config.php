@@ -8,4 +8,5 @@
 // The file should be to 50 Pixel is a good height
 // Uncomment the next line. 
 
-$themeNebulaConfig['logo'] = 'data/files/Nebula/Assets/images/brand-logo.png';
+// $themeNebulaConfig['logo'] = 'data/files/Nebula/Assets/images/brand-logo.png';
+$themeNebulaConfig['logo'] = '/logo.png';
