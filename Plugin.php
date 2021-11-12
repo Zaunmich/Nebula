@@ -56,12 +56,12 @@ class Plugin extends Base
 
     public function getPluginAuthor()
     {
-        return 'Valentino Pesce';
+        return 'Valentino Pesce + Michael Zauner';
     }
 
     public function getPluginVersion()
     {
-        return '1.3.6'; 
+        return '2.0.0'; 
     }
 
     public function getCompatibleVersion()
@@ -71,7 +71,7 @@ class Plugin extends Base
 
     public function getPluginHomepage()
     {
-        return 'https://github.com/kenlog/nebula';
+        return 'https://github.com/Zaunmich/Nebula';
     }
 
 }

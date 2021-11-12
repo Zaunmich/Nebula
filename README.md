@@ -1,34 +1,12 @@
-## Checkout our latest project
-[![](https://raw.githubusercontent.com/docpht/docpht/master/public/assets/img/logo.png)](https://github.com/docpht/docpht)
-
-- With [DocPHT](https://github.com/docpht/docpht) you can take notes and quickly document anything and without the use of any database.
------------
-
-[![Latest release](https://img.shields.io/github/release/kenlog/Nebula.svg)](https://github.com/kenlog/Nebula/releases)
-[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/kenlog/Nebula/blob/master/LICENSE)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/kenlog/Nebula/graphs/contributors)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)]()
-[![Downloads](https://img.shields.io/github/downloads/kenlog/Nebula/total.svg)](https://github.com/kenlog/Nebula/releases)
-
 # Nebula plugin (modern theme for kanboard)
 
-<noscript><a href="https://liberapay.com/kenlog/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
-<a href="https://paypal.me/kenlog"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" /></a>
-
-This theme allows you to add special features like replacing the logo and adds syntax highlighting for Markdown code.
-
-# Screenshot
-![board](https://user-images.githubusercontent.com/11728231/48299849-78c1cf80-e4d3-11e8-8d3a-83b25f86f6f9.jpg)
-![task1](https://user-images.githubusercontent.com/11728231/48299850-78c1cf80-e4d3-11e8-89c4-03cc85af8345.jpg)
-![task2](https://user-images.githubusercontent.com/11728231/48299851-78c1cf80-e4d3-11e8-800a-9325cff01ade.jpg)
-![task3](https://user-images.githubusercontent.com/11728231/48299852-78c1cf80-e4d3-11e8-8861-9582a17dacb1.jpg)
-![chart](https://user-images.githubusercontent.com/11728231/43127800-9fc1e370-8f30-11e8-92d8-f4129b642349.jpg)
-
-
+Fixes:
+- Nothing was really broken, I just changed the colors
 
 Author
 ------------
 - Valentino Pesce
+- Michael Zauner
 - License MIT
 
 Requirements
@@ -75,14 +53,9 @@ class BaseClass {
 +```
 
 ```
-### :star: If you like it, do not forget to give a star on GitHub! 
+### :star: If you like it, do not forget to give a star to the [original author](https://github.com/kenlog/Nebula) on GitHub too! 
 
-:construction_worker: Any contribution will be highly appreciated
-------------
-Clone the repository: 
-```console 
-git clone https://github.com/kenlog/Nebula.git
-```
+
 :bug: Reporting Issues
 ------------
 Please [create an issue](https://github.com/kenlog/Nebula/issues) for any bugs you've found.
