@@ -3389,11 +3389,11 @@ div.ganttview-hzheader-day {
 div.ganttview-grid-row-cell.last,
 div.ganttview-hzheader-day.last,
 div.ganttview-hzheader-month.last {
-    border-right: 1px dashed #d0d0d0;
+    border-right: 1px dashed #d0d0d0!important;
 }
 
 div.ganttview {
-    border: 0px solid var(--border-line-color);
+    border: 0px solid var(--border-line-color)!important;
     border-radius: 6px;
     background-color: var(--highlight-bg-color);
     color: var(--main-text-color)!important;
@@ -3428,10 +3428,10 @@ div.ganttview-vtheader-item {
 }
 
 div.ganttview-vtheader-series-name {
-    width: 390px;
+    width: 390px!important;
     height: 31px;
     line-height: 31px;
-    padding-left: 10px;
+    padding-left: 10px!important;
     color: var(--main-text-color)!important;
     background: var(--highlight-bg-color)!important;
     border-top: 1px solid #d0d0d0;
@@ -3466,7 +3466,7 @@ div.ganttview-slide-container {
 div.ganttview-grid-row-cell {
     width: 20px;
     height: 31px;
-    border-right: 1px solid var(--border-line-color);
+    border-right: 1px solid var(--border-line-color)!important;
     border-top: 1px solid #f0f0f0;
     background-color: var(--highlight-bg-color)!important;
 }
