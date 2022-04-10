@@ -26,11 +26,13 @@ class Plugin extends Base
             $this->template->setTemplateOverride('layout', 'Nebula:layout');
             $this->template->setTemplateOverride('header/creation_dropdown', 'Nebula:layout/header/creation_dropdown');
 		}
-			elseif (isset($themeNebulaConfig['logo'])) 
+        elseif (isset($themeNebulaConfig['logo'])) 
         {
             $this->template->setTemplateOverride('header/title', 'Nebula:layout/header/title');
             $this->template->setTemplateOverride('layout', 'Nebula:layout');
             $this->template->setTemplateOverride('header/creation_dropdown', 'Nebula:layout/header/creation_dropdown');
+            // for the adaptive line-thickness depending on the task priority
+            $this->template->setTemplateOverride('board/task_private', 'Nebula:board/task_private');
         }
 		
         $this->hook->on("template:layout:css", array("template" => "plugins/Nebula/Assets/css/nebula.css"));
